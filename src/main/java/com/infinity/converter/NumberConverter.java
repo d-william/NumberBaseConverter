@@ -4,14 +4,14 @@ import java.math.BigInteger;
 
 public class NumberConverter {
 
-    public static final String BINAIRE = "01";
-    public static final String TRINAIRE = "012";
+    public static final String BINARY = "01";
+    public static final String TERNARY = "012";
     public static final String OCTAL = "01234567";
-    public static final String NONAIRE = "012345678";
+    public static final String NONARY = "012345678";
     public static final String DECIMAL = "0123456789";
     public static final String DUODECIMAL = "0123456789AB";
     public static final String HEXADECIMAL = "0123456789ABCDEF";
-    public static final String VEGESIMAL = "0123456789ABCDEFGHIJ";
+    public static final String VIGESIMAL = "0123456789ABCDEFGHIJ";
 
     public static boolean uniqueChar(String str) {
         for (int i = 0; i < str.length(); i++)
@@ -43,7 +43,7 @@ public class NumberConverter {
     }
 
     public static BigInteger binToDec(String number) {
-        return toDec(BINAIRE,number);
+        return toDec(BINARY,number);
     }
 
     public static BigInteger hexToDec(String number) {
