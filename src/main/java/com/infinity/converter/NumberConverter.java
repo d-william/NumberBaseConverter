@@ -57,13 +57,13 @@ public class NumberConverter {
         do {
             sb.append(digits.charAt(number.mod(base).intValue()));
             number = number.divide(base);
-            System.out.println();
         }
         while (number.compareTo(BigInteger.ZERO) > 0);
         return sb.reverse().toString();
     }
 
     public static String anyToAny(String inputDigits, String outputDigits, String inputNumber) {
+        if ("".equals(inputNumber)) return "";
         return fromDec(outputDigits, toDec(inputDigits, inputNumber));
     }
 
