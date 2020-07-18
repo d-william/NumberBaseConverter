@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.infinity.converter","l":"Bases"},{"p":"com.infinity.converter","l":"NumeralSystem"},{"p":"com.infinity.converter","l":"PositionalNumeralSystem"}]

@@ -1,14 +1,11 @@
-# NumberBaseConverter
-Java NumberBaseConverter
+# number-converter
+Converts numbers in Java
 
 # Usage
 
-```java
-String bin = NumberConverter.anyToAny(NumberConverter.DECIMAL, NumberConverter.BINARY, "16");
+``` java
+String bin = Bases.anyToAny(NumberConverter.DECIMAL, NumberConverter.BINARY, "16"); // "10000"
 ```
 
-bin = "10000"
+# Maven
 
-# Download
-
-[number-converter-1.0.0.jar](https://github.com/d-william/NumberBaseConverter/releases/download/1.0.0/number-converter-1.0.0.jar)
